@@ -1,7 +1,7 @@
 # Stock Price and News Notifier
 
 ## Overview
-This script fetches stock price data for Tesla Inc. (TSLA) from Alpha Vantage API, checks for significant price changes, retrieves news articles related to Tesla using News API, and sends notifications via Twilio to a specified phone number.
+This script fetches stock price data for a specified stock from Alpha Vantage API, checks for significant price changes, retrieves news articles related to the specified stock using News API, and sends notifications via Twilio to a specified phone number.
 
 ## Setup
 
@@ -29,4 +29,12 @@ This script fetches stock price data for Tesla Inc. (TSLA) from Alpha Vantage AP
 2. Receive notifications on your phone with stock price changes and related news articles.
 
 ## Example
-An example SMS notification:
+TSLA:🔻-0.25%
+Headline: Tesla may head to India on incentive-paved road - The Economic Times
+Brief: India imposes 100% import duty on cars with cost, insurance and freight value of more than $40,000 (about Rs 33 lakh), and 60% for those below that threshold. Tesla is willing to invest up to $2 billion if the Indian government offers reduced import duty of 1…
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Contributors
+- Mohammed Sadiq Ali(https://github.com/S4DIQ84/)
